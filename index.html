@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEACHY - Protein Bars Inspired by Sunshine</title>
+    <title>BEACHY MIAMI - Premium Protein Bars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">BEACHY</div>
+            <div class="nav-brand">
+                <span class="nav-logo">BEACHY</span>
+                <span class="nav-subtext">MIAMI</span>
+            </div>
             <ul class="nav-menu">
                 <li><a href="#shop">SHOP</a></li>
                 <li><a href="#story">OUR STORY</a></li>
@@ -22,10 +28,10 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-background" style="background-image: url('IMG_8065.JPEG')"></div>
+        <img src="IMG_8065.JPEG" alt="Aerial ocean beach" class="hero-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="hero-title">BEACHY</h1>
+            <h1 class="hero-title">B E A C H Y</h1>
             <p class="hero-subtitle">PROTEIN BARS INSPIRED BY SUNSHINE</p>
             <button class="cta-button">JOIN WAITLIST</button>
         </div>
@@ -34,19 +40,17 @@
     <!-- Product Section -->
     <section class="product-section">
         <div class="product-container">
-            <div class="product-bar">
-                <div class="bar-image" style="background-image: url('IMG_6614.HEIC')"></div>
-            </div>
+            <img src="IMG_6614.JPEG" alt="BEACHY Protein Bar" class="product-image">
         </div>
     </section>
 
     <!-- Story Section -->
     <section class="story-section">
         <div class="story-grid">
-            <div class="story-image" style="background-image: url('IMG_7752.HEIC')"></div>
+            <img src="IMG_7752.JPEG" alt="BEACHY Story" class="story-image">
             <div class="story-content">
-                <h2 class="story-label">OUR WHY</h2>
-                <h3 class="story-headline">MOST BARS ARE BUILT IN LABS.<br>THIS ONE WAS BUILT IN THE SUN.</h3>
+                <span class="story-label">OUR WHY</span>
+                <h2 class="story-headline">MOST BARS ARE BUILT IN LABS.<br>THIS ONE WAS BUILT IN THE SUN.</h2>
                 <p class="story-text">We created BEACHY to make nutrition feel good—simple ingredients, added vitamin D, and flavors that take you somewhere better.</p>
             </div>
         </div>
@@ -72,7 +76,10 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <h2 class="footer-logo">BEACHY</h2>
+        <div class="footer-logo">
+            <span class="footer-beachy">BEACHY</span>
+            <span class="footer-miami">MIAMI</span>
+        </div>
     </footer>
 </body>
 </html>
