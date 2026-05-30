@@ -3,105 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEACHY - Protein Bar Inspired by Sunshine</title>
+    <title>BEACHY MIAMI - Premium Protein Bars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk+Display:wght@400;700&family=Cormorant+Garamond:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">BEACHY</div>
+            <div class="nav-brand">
+                <span class="nav-logo">BEACHY</span>
+                <span class="nav-subtext">MIAMI</span>
+            </div>
             <ul class="nav-menu">
                 <li><a href="#shop">SHOP</a></li>
                 <li><a href="#story">OUR STORY</a></li>
                 <li><a href="#ingredients">INGREDIENTS</a></li>
                 <li><a href="#faq">FAQ</a></li>
-                <li><a href="#cart">CART</a></li>
+                <li><a href="#cart" class="cart-link">CART (0)</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-background" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400&q=80')"></div>
+        <div class="hero-background" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=85')"></div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="hero-title">BEACHY</h1>
             <p class="hero-subtitle">A PROTEIN BAR INSPIRED BY SUNSHINE</p>
-            <button class="cta-button">SHOP BARS</button>
+            <button class="cta-button hero-btn">SHOP BARS</button>
         </div>
     </section>
 
     <!-- Our Bars Section -->
     <section class="our-bars" id="shop">
-        <h2 class="section-title">OUR BARS</h2>
-        <div class="bars-grid">
-            <div class="bar-card">
-                <div class="bar-mockup" style="background-image: url('https://images.unsplash.com/photo-1590511792014-78b42ac53271?w=300&q=80')"></div>
-                <h3>Sunny Citrus</h3>
+        <h2 class="section-label">OUR BARS</h2>
+        <div class="bars-container">
+            <div class="bar-item">
+                <div class="bar-package" style="background: linear-gradient(135deg, #d4a574 0%, #c19a6b 100%)">
+                    <div class="bar-label">BEACHY</div>
+                    <div class="bar-flavor">COCONUT VANILLA</div>
+                    <div class="bar-badge">VITAMIN D PROTEIN BAR</div>
+                    <div class="bar-info">
+                        <div>15G PROTEIN</div>
+                        <div>GLUTEN FREE</div>
+                    </div>
+                    <div class="bar-weight">NET WT: 1.59 OZ (45G)</div>
+                </div>
             </div>
-            <div class="bar-card">
-                <div class="bar-mockup" style="background-image: url('https://images.unsplash.com/photo-1599599810694-b5ac4dd0b55f?w=300&q=80')"></div>
-                <h3>Tropical Mango</h3>
+            <div class="bar-item">
+                <div class="bar-package" style="background: linear-gradient(135deg, #3fa7a3 0%, #2d8a87 100%)">
+                    <div class="bar-label">BEACHY</div>
+                    <div class="bar-flavor">COCONUT VANILLA</div>
+                    <div class="bar-badge">VITAMIN D PROTEIN BAR</div>
+                    <div class="bar-info">
+                        <div>15G PROTEIN</div>
+                        <div>GLUTEN FREE</div>
+                    </div>
+                    <div class="bar-weight">NET WT: 1.59 OZ (45G)</div>
+                    <div class="bar-location">MIAMI, FL</div>
+                </div>
             </div>
-            <div class="bar-card">
-                <div class="bar-mockup" style="background-image: url('https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=300&q=80')"></div>
-                <h3>Coconut Bliss</h3>
+            <div class="bar-item">
+                <div class="bar-package" style="background: linear-gradient(135deg, #2a8b7d 0%, #1f6f67 100%)">
+                    <div class="bar-label">BEACHY</div>
+                    <div class="bar-flavor">COCONUT VANILLA</div>
+                    <div class="bar-badge">VITAMIN D PROTEIN BAR</div>
+                    <div class="bar-info">
+                        <div>15G PROTEIN</div>
+                        <div>GLUTEN FREE</div>
+                    </div>
+                    <div class="bar-weight">NET WT: 1.59 OZ (45G)</div>
+                    <div class="bar-location">MIAMI, FL</div>
+                </div>
             </div>
-            <div class="bar-card">
-                <div class="bar-mockup" style="background-image: url('https://images.unsplash.com/photo-1505252585461-04db1921c313?w=300&q=80')"></div>
-                <h3>Berry Breeze</h3>
+            <div class="bar-item">
+                <div class="bar-package" style="background: linear-gradient(135deg, #1e5a7f 0%, #154570 100%)">
+                    <div class="bar-label">BEACHY</div>
+                    <div class="bar-flavor">COCONUT VANILLA</div>
+                    <div class="bar-badge">VITAMIN D PROTEIN BAR</div>
+                    <div class="bar-info">
+                        <div>15G PROTEIN</div>
+                        <div>GLUTEN FREE</div>
+                    </div>
+                    <div class="bar-weight">NET WT: 1.59 OZ (45G)</div>
+                    <div class="bar-location">MIAMI, FL</div>
+                </div>
             </div>
         </div>
         <button class="cta-button secondary-btn">SHOP ALL BARS</button>
     </section>
 
-    <!-- Our Why Section -->
-    <section class="our-why" id="story">
-        <div class="why-image" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80')"></div>
-        <div class="why-content">
-            <h2 class="section-title">OUR WHY</h2>
-            <p class="why-headline">MOST BARS ARE BUILT IN LABS.<br>THIS ONE WAS BUILT IN THE SUN.</p>
-            <p class="why-description">We created BEACHY to make nutrition feel good: simple ingredients, added vitamin D, and flavors that take you somewhere better.</p>
+    <!-- Values Section -->
+    <section class="values-section">
+        <div class="values-left">
+            <div class="values-image" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=85')"></div>
+        </div>
+        <div class="values-right">
+            <h2 class="values-title">OUR WHY</h2>
+            <h3 class="values-headline">MOST BARS ARE BUILT IN LABS.<br>THIS ONE WAS BUILT IN THE SUN.</h3>
+            <p class="values-text">We created BEACHY to make nutrition feel good—simple ingredients, added vitamin D, and flavors that take you somewhere better.</p>
             <a href="#" class="story-link">OUR STORY →</a>
         </div>
     </section>
 
-    <!-- Values Section -->
-    <section class="values">
-        <div class="value-block">
-            <div class="value-icon">☀️</div>
-            <h3>VITAMIN D</h3>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-item">
+            <div class="feature-icon">☀️</div>
+            <h4 class="feature-label">VITAMIN D</h4>
+            <p class="feature-desc">supports sunshine</p>
         </div>
-        <div class="value-block">
-            <div class="value-icon">💪</div>
-            <h3>15G PROTEIN</h3>
+        <div class="feature-item">
+            <div class="feature-icon">💪</div>
+            <h4 class="feature-label">15G PROTEIN</h4>
+            <p class="feature-desc">to fuel your day</p>
         </div>
-        <div class="value-block">
-            <div class="value-icon">🌿</div>
-            <h3>CLEAN INGREDIENTS</h3>
+        <div class="feature-item">
+            <div class="feature-icon">🌿</div>
+            <h4 class="feature-label">CLEAN INGREDIENTS</h4>
+            <p class="feature-desc">no gluten, no nonsense</p>
         </div>
-        <div class="value-block">
-            <div class="value-icon">🏝️</div>
-            <h3>MADE FOR ESCAPE</h3>
+        <div class="feature-item">
+            <div class="feature-icon">🌊</div>
+            <h4 class="feature-label">MADE FOR ESCAPE</h4>
+            <p class="feature-desc">wherever you are</p>
         </div>
     </section>
 
-    <!-- Photo Grid Section -->
+    <!-- Photo Grid -->
     <section class="photo-grid">
-        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=80')"></div>
-        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1505228395891-9a51e7e86e81?w=400&q=80')"></div>
-        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80')"></div>
-        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&q=80')"></div>
-        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=400&q=80')"></div>
-        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400&q=80')"></div>
-        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80')"></div>
-        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=80')"></div>
+        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&q=85')"></div>
+        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1473496195557-37db76917dcc?w=500&q=85')"></div>
+        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=85')"></div>
+        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1509803874197-971876b2e7ff?w=500&q=85')"></div>
+        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&q=85')"></div>
+        <div class="grid-item" style="background-image: url('https://images.unsplash.com/photo-1503814131303-6b4e4c439dd0?w=500&q=85')"></div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 BEACHY. A Protein Bar Inspired by Sunshine.</p>
+        <div class="footer-left">
+            <p>ESCAPE MORE</p>
+            <p class="footer-handle">@BEACHYSNACKS</p>
+        </div>
+        <div class="footer-right">
+            <p>PROTEIN BARS<br>INSPIRED BY SUNSHINE</p>
+            <p>FUELED BY SUNSHINE.<br>MADE IN MIAMI.</p>
+            <p>CLEAN INGREDIENTS.<br>REAL ENERGY.</p>
+            <p>@BEACHY.BARS<br>BEACHYBARS.COM</p>
+        </div>
     </footer>
 </body>
 </html>
